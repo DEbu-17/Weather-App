@@ -33,6 +33,7 @@ const [month, setMonth] = useState(6);
         <p>Month:{month}</p>
 
         <div>{hemisphere && (hemisphere == "southern Hemisphere" && (month>=4 && month<=8)) && (<div>"summer"</div>) }
+        
         </div>
       </div>
     );
